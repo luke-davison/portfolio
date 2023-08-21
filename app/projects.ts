@@ -1,4 +1,4 @@
-interface Project {
+export interface Project {
   slug: string;
   image: string;
   title: string;
@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description: "A gallery for my various projects and tinkerings",
     tech: ["Next.js", "TypeScript", "TailwindCSS"],
     url: "",
-    sourceUrl: "",
+    sourceUrl: "https://github.com/luke-davison/portfolio",
     notes: []
   },
   {

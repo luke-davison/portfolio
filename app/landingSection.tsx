@@ -1,5 +1,6 @@
 import Image from "next/image";
 import TitleSwitcher from "./TitleSwitcher";
+import ContactLinks from "./contactLinks";
 
 export default function LandingSection() {
   return (
@@ -33,12 +34,7 @@ export default function LandingSection() {
                 </div>
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                <a href="/" className="pl-4">
-                  <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
-                </a>
-                <a href="/" className="pl-4">
-                  <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-                </a>
+                <ContactLinks />
               </div>
             </div>
           </div>

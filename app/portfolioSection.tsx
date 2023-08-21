@@ -1,3 +1,4 @@
+import PortfolioProject from "./portfolioProject";
 import { projects } from "./projects";
 
 export default function PortfolioSection() {
@@ -13,17 +14,7 @@ export default function PortfolioSection() {
 
       <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
         {projects.map((project) => (
-          <a
-            key={project.slug}
-            href={project.slug}
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-          >
-            <img
-              src={`/assets/img${project.image}`}
-              className="w-full shadow"
-              alt="portfolio image"
-            />
-          </a>
+          <PortfolioProject key={project.slug} project={project} />
         ))}
       </div>
     </div>
