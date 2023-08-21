@@ -68,7 +68,7 @@ export const projects: Project[] = [
     title: "Unnamed Word Game",
     date: "2022",
     description: "A word game not too similar or dissimilar from Wordle",
-    tech: ["React, TypeScript", "Node", "Express", "CSS"],
+    tech: ["React", "TypeScript", "Node", "Express", "CSS"],
     url: "https://lettermonger.onrender.com",
     sourceUrl: "https://github.com/luke-davison/new-word-game",
     notes: [
