@@ -1,11 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import LandingSection from "./landingSection";
-import AboutSection from "./aboutSection";
-import PortfolioSection from "./portfolioSection";
-import WorkSection from "./workSection";
 import Footer from "./footer";
-import Nav from "./nav";
+import Nav from "./Nav";
 
 export const metadata: Metadata = {
   title: "This is Luke",
@@ -53,7 +49,6 @@ export default function RootLayout({
 
         <link
           crossOrigin="anonymous"
-          // crossorigin="crossorigin"
           href="https://fonts.gstatic.com"
           rel="preconnect"
         />
@@ -81,41 +76,13 @@ export default function RootLayout({
           media="screen"
           rel="stylesheet"
         />
-
-        {/* <script
-    defer
-    src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
-  ></script>
-
-  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> */}
       </head>
 
-      <body
-        //  :className="{ 'overflow-hidden max-h-screen': mobileMenu }"
-        className="relative"
-        x-data="{ mobileMenu: false }"
-      >
+      <body className="relative">
         <div id="main" className="relative">
-          {/* <div>
-      <div
-  x-data="{
-    triggerNavItem(id) {
-        $scroll(id)
-    },
-    triggerMobileNavItem(id) {
-        mobileMenu = false;
-        this.triggerNavItem(id)
-    }
-}"
-> */}
           <Nav />
 
-          <div>
-            <LandingSection />
-            <AboutSection />
-            <PortfolioSection />
-            <WorkSection />
-          </div>
+          {children}
 
           <Footer />
         </div>
