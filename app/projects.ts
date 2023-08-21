@@ -13,7 +13,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     slug: "portfolio",
-    image: "/portfolio-portfolio.png",
+    image: "/portfolio-portfolio.PNG",
     title: "This site",
     date: "August 2023",
     description: "A gallery for my various projects and tinkerings",
@@ -24,7 +24,7 @@ export const projects: Project[] = [
   },
   {
     slug: "countdown-solver",
-    image: "/portfolio-countdown.png",
+    image: "/portfolio-countdown.PNG",
     title: "Countdown number game solver",
     date: "August 2023",
     description: "I challenged myself to build a solver for this game",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
   },
   {
     slug: "travel-blog",
-    image: "/portfolio-travel-blog.png",
+    image: "/portfolio-travel-blog.PNG",
     title: "A travel blog built with Gatsby",
     date: "April 2023",
     description: "A travel blog built with Gatsby",
@@ -51,7 +51,7 @@ export const projects: Project[] = [
   },
   {
     slug: "keto-calculator",
-    image: "/portfolio-keto-calculator.png",
+    image: "/portfolio-keto-calculator.PNG",
     title: "Keto Calculator",
     date: "February 2023",
     description: "An app to calculate protein/carb/fat ratios",
@@ -64,7 +64,7 @@ export const projects: Project[] = [
   },
   {
     slug: "word-game",
-    image: "/portfolio-word-game.png",
+    image: "/portfolio-word-game.PNG",
     title: "Unnamed Word Game",
     date: "2022",
     description: "A word game not too similar or dissimilar from Wordle",
@@ -77,7 +77,7 @@ export const projects: Project[] = [
   },
   {
     slug: "geocache-puzzles",
-    image: "/portfolio-solitaire.png",
+    image: "/portfolio-solitaire.PNG",
     title: "Geocache puzzles",
     date: "June 2018",
     description: "Some puzzles I made for the geocaching community",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
   },
   {
     slug: "city-sim",
-    image: "/portfolio-city-sim.png",
+    image: "/portfolio-city-sim.PNG",
     title: "City Sim",
     date: "May 2017",
     description: "A basic traffic simulation in an isometric city",
