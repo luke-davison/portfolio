@@ -4,7 +4,7 @@ import { Project } from "./projects";
 export default function PortfolioProject({ project }: { project: Project }) {
   return (
     <a
-      href={project.slug}
+      href={Array.isArray(project.url) ? project.url[0] : project.url}
       className="mx-auto transform transition-all hover:scale-105 md:mx-0"
     >
       <Image
@@ -15,6 +15,13 @@ export default function PortfolioProject({ project }: { project: Project }) {
         height={294}
         priority
       />
+      <div className="absolute flex flex-wrap left-1 bottom-0 text-white ">
+        {project.tech.map((label) => (
+          <span key="label" className="bg-primary px-2 py-1 ml-1 mb-2">
+            {label}
+          </span>
+        ))}
+      </div>
     </a>
   );
 }

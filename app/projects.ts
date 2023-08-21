@@ -18,7 +18,7 @@ export const projects: Project[] = [
     date: "August 2023",
     description: "A gallery for my various projects and tinkerings",
     tech: ["Next.js", "TypeScript", "TailwindCSS"],
-    url: "",
+    url: "https://luke-davison.vercel.app/",
     sourceUrl: "https://github.com/luke-davison/portfolio",
     notes: []
   },
