@@ -1,6 +1,6 @@
 import NavLink from "./navLink";
 
-export default function Nav() {
+export default function TopMenu() {
   return (
     <div className="w-full z-50 top-0 py-3 sm:py-5  absolute">
       <div className="container flex items-center justify-between">

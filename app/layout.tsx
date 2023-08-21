@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import Footer from "./footer";
-import Nav from "./Nav";
+import TopMenu from "./TopMenu";
 
 export const metadata: Metadata = {
   title: "This is Luke",
@@ -80,7 +80,7 @@ export default function RootLayout({
 
       <body className="relative">
         <div id="main" className="relative">
-          <Nav />
+          <TopMenu />
 
           {children}
 
