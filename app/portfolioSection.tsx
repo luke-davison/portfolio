@@ -1,3 +1,5 @@
+import { projects } from "./projects";
+
 export default function PortfolioSection() {
   return (
     <div className="container py-16 md:py-20" id="portfolio">
@@ -10,46 +12,19 @@ export default function PortfolioSection() {
       </h3>
 
       <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-        <a
-          href="/"
-          className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-        >
-          <img
-            src="/assets/img/portfolio-apple.jpeg"
-            className="w-full shadow"
-            alt="portfolio image"
-          />
-        </a>
-        <a
-          href="/"
-          className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-        >
-          <img
-            src="/assets/img/portfolio-stripe.jpeg"
-            className="w-full shadow"
-            alt="portfolio image"
-          />
-        </a>
-        <a
-          href="/"
-          className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-        >
-          <img
-            src="/assets/img/portfolio-fedex.jpeg"
-            className="w-full shadow"
-            alt="portfolio image"
-          />
-        </a>
-        <a
-          href="/"
-          className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-        >
-          <img
-            src="/assets/img/portfolio-microsoft.jpeg"
-            className="w-full shadow"
-            alt="portfolio image"
-          />
-        </a>
+        {projects.map((project) => (
+          <a
+            key={project.slug}
+            href={project.slug}
+            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+          >
+            <img
+              src={`/assets/img${project.image}`}
+              className="w-full shadow"
+              alt="portfolio image"
+            />
+          </a>
+        ))}
       </div>
     </div>
   );
