@@ -47,6 +47,8 @@ export default function RootLayout({
 
         <meta name="twitter:site" content="@tailwindmade" />
 
+        <meta name="robots" content="noindex" />
+
         <link
           crossOrigin="anonymous"
           href="https://fonts.gstatic.com"

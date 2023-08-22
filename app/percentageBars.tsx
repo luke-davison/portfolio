@@ -17,14 +17,16 @@ export default function PercentageBars() {
         <div key={percentage.label} className="pt-6">
           <div className="flex items-end justify-between">
             <h4 className="font-body font-semibold uppercase text-black">
-              TypeScript
+              {percentage.label}
             </h4>
-            <h3 className="font-body text-3xl font-bold text-primary">85%</h3>
+            <h3 className="font-body text-3xl font-bold text-primary">
+              {percentage.value}%
+            </h3>
           </div>
           <div className="mt-2 h-3 w-full rounded-full bg-lila">
             <div
               className="h-3 rounded-full bg-primary"
-              style={{ width: "85%" }}
+              style={{ width: `${percentage.value}%` }}
             ></div>
           </div>
         </div>
