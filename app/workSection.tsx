@@ -116,7 +116,7 @@ export default function WorkSection() {
                     Jan 2018 - Jan 2019
                   </span>
                   <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
-                    Enlighten Designs
+                    SharePoint Developer
                   </span>
                   <div className="pt-2">
                     <span className="block font-body text-black">
@@ -156,13 +156,14 @@ export default function WorkSection() {
                     2013 - 2017
                   </span>
                   <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
-                    Inland Revenue
+                    Investigator
                   </span>
                   <div className="pt-2">
                     <span className="block font-body text-black">
-                      The skills I picked up here aren&apos;t totally relevant
-                      to my job as a developer, but they come in handy from time
-                      to time.
+                      The skills I picked up as an investigator for the New
+                      Zealand tax department aren&apos;t totally relevant to my
+                      job as a developer, but they come in handy from time to
+                      time.
                     </span>
                   </div>
                 </div>
