@@ -23,14 +23,16 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           {project.description}
         </h4>
 
-        <Image
-          src={`/assets/img${project.image}`}
-          className="w-full shadow pt-4"
-          alt="portfolio image"
-          width={552}
-          height={294}
-          priority
-        />
+        <a href={url[0]}>
+          <Image
+            src={`/assets/img${project.image}`}
+            className="w-full shadow pt-4"
+            alt="portfolio image"
+            width={552}
+            height={294}
+            priority
+          />
+        </a>
 
         <p className="font-body leading-relaxed text-grey-20">
           {project.notes.map((note, index) => (
