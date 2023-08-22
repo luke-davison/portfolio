@@ -7,7 +7,7 @@ export default function PortfolioSection() {
       <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
         Check out my Portfolio
       </h2>
-      <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+      <h3 className="pt-6 text-center font-header text-xl font-medium text-black lg:text-2xl">
         Here&apos;s a collection of various tinkerings and small personal
         projects I&apos;ve completed over the years
       </h3>
