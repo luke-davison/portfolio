@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { Project } from "./projects";
+import Link from "next/link";
 
 export default function PortfolioProject({ project }: { project: Project }) {
   return (
-    <a
-      href={Array.isArray(project.url) ? project.url[0] : project.url}
+    <Link
+      href={`projects/${project.slug}`}
       className="mx-auto transform transition-all hover:scale-105 md:mx-0"
     >
       <Image
@@ -22,6 +23,6 @@ export default function PortfolioProject({ project }: { project: Project }) {
           </span>
         ))}
       </div>
-    </a>
+    </Link>
   );
 }

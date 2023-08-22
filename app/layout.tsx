@@ -79,10 +79,10 @@ export default function RootLayout({
       </head>
 
       <body className="relative">
-        <div id="main" className="relative">
+        <div id="main" className="relative flex flex-col min-h-screen">
           <TopMenu />
 
-          {children}
+          <div className="grow">{children}</div>
 
           <Footer />
         </div>
