@@ -22,24 +22,24 @@ export const projects: Project[] = [
     sourceUrl: "https://github.com/luke-davison/portfolio",
     notes: []
   },
-  {
-    slug: "countdown-solver",
-    image: "/portfolio-countdown.PNG",
-    title: "Countdown number game solver",
-    date: "August 2023",
-    description: "I challenged myself to build a solver for this game",
-    tech: ["Angular", "TypeScript"],
-    url: "https://luke-davison.github.io/countdown-solver/",
-    sourceUrl: "https://github.com/luke-davison/countdown-solver",
-    notes: [
-      "I like the numbers challenge in the British TV show Countdown.  After playing a version of it on my phone for a while I began to wonder how easy it would be to write an algorithm to solve it.  As suspected, it was reasonably easy.  The hard part was writing the code in an understandable and tidy way.",
-      "But a solver isn't much use without a UI so I decided to put my knowledge of Angular to the test.  It's not pretty, but it works."
-    ]
-  },
+  // {
+  //   slug: "countdown-solver",
+  //   image: "/portfolio-countdown.PNG",
+  //   title: "Countdown number game solver",
+  //   date: "August 2023",
+  //   description: "I challenged myself to build a solver for this game",
+  //   tech: ["Angular", "TypeScript"],
+  //   url: "https://luke-davison.github.io/countdown-solver/",
+  //   sourceUrl: "https://github.com/luke-davison/countdown-solver",
+  //   notes: [
+  //     "I like the numbers challenge in the British TV show Countdown.  After playing a version of it on my phone for a while I began to wonder how easy it would be to write an algorithm to solve it.  As suspected, it was reasonably easy.  The hard part was writing the code in an understandable and tidy way.",
+  //     "But a solver isn't much use without a UI so I decided to put my knowledge of Angular to the test.  It's not pretty, but it works."
+  //   ]
+  // },
   {
     slug: "travel-blog",
     image: "/portfolio-travel-blog.PNG",
-    title: "A travel blog built with Gatsby",
+    title: "Travel blog",
     date: "April 2023",
     description: "A travel blog built with Gatsby",
     tech: ["Gatsby", "TypeScript", "React", "GraphQL", "CSS", "MDX"],
