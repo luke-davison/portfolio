@@ -12,9 +12,11 @@ export default function AboutSection() {
             I&apos;m Luke Davison
           </h4>
           <p className="pt-6 font-body leading-relaxed text-grey-20">
-            In 2017 I had an epiphany - as fun as conducting tax audits were,
-            being a developer was much more enjoyable. Since then I have been
-            pursuing a career as a web developer.
+            In 2017 I had an epiphany. As fun as it was to conduct tax audits,
+            being a developer was likely much more enjoyable. Since then I have
+            been pursuing a career as a web developer and life has been pretty
+            good. Check out my portfolio and work history below to learn more
+            about me and what I can do.
           </p>
         </div>
 
