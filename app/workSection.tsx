@@ -21,7 +21,7 @@ export default function WorkSection() {
                 />
               </span>
               <div className="relative ml-3 hidden w-full md:block">
-                <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                <span className="absolute inset-x-0 top-3 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function WorkSection() {
                 />
               </span>
               <div className="relative ml-3 hidden w-full md:block">
-                <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                <span className="absolute inset-x-0 top-3 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function WorkSection() {
                 />
               </span>
               <div className="relative ml-3 hidden w-full md:block">
-                <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                <span className="absolute inset-x-0 top-3 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function WorkSection() {
                 />
               </span>
               <div className="relative ml-3 hidden w-full md:block">
-                <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                <span className="absolute inset-x-0 top-3 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
               </div>
             </div>
           </div>
