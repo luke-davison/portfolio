@@ -43,9 +43,9 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </p>
 
         <div className="grid gap-4 grid-cols-12 pt-4 text-grey-20">
-          <div className="col-span-3">Tech used:</div>
+          <div className="col-span-3 text-left">Tech used:</div>
           <div className="col-span-9">{project.tech.join(", ")}</div>
-          <div className="col-span-3">Live site:</div>
+          <div className="col-span-3 text-left">Live site:</div>
           <div className="col-span-9 text-black">
             {url.map((str) => (
               <a key={str} href={str} className="block">
@@ -53,7 +53,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               </a>
             ))}
           </div>
-          <div className="col-span-3">Code:</div>
+          <div className="col-span-3 text-left">Code:</div>
           <div className="col-span-9 text-black">
             {sourceUrl.map((str) => (
               <a key={str} href={str} className="block">

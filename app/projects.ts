@@ -21,7 +21,7 @@ export const projects: Project[] = [
     url: "https://luke-davison.vercel.app/",
     sourceUrl: "https://github.com/luke-davison/portfolio",
     notes: [
-      "One day I woke up and thought to myself, \"It's about time I had a proper portfolio site\".  Also, \"It's about time I tried Next.js\".  I managed to whip this up in a couple of days, converting a template I found on Red Pixel Themes to React components.  I like to think that I have an eye for detail, but I've known for a while that I'm no designer.  I also had to do some minor tweaking - so if you see something that doesn't quite look right, that'll likely be my changes to the design."
+      "One day I woke up and thought to myself, \"It's about time I had a proper portfolio site\".  Also, \"It's about time I tried Next.js\".  I managed to whip this up in a couple of days, converting a free template I found on Red Pixel Themes to React components.  I like to think that I have an eye for detail, but I've known for a while that I'm no designer, hence why I used a template.  I also had to do some minor tweaking - so if you see something that doesn't quite look right, that'll likely be my changes to the design."
     ]
   },
   // {
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     url: "https://luke-davison.github.io/keto-calculator/",
     sourceUrl: "https://github.com/luke-davison/keto-calculator",
     notes: [
-      "A friend of mine had their child diagnosed with a disability.  To lessen the symptoms it was recommended they be put on a high fat diet.  They were provided with an excel spreadsheet to help them calculate the right ratio of fat to carbs and protein.  Most keto calculators we could find were for people dieting so I developed an app which could do the calculating for them."
+      "A friend of mine had their child diagnosed with a genetic condition called glutone defficiency.  To lessen the symptoms it was recommended that they be put on a high fat diet.  They were provided with an excel spreadsheet to help them calculate the right ratio of fat to carbs and protein but it wasn't easy to use.  Most keto calculators we could find were for people dieting so I developed an app which could do the calculating for them."
     ]
   },
   {
