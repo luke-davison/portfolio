@@ -16,7 +16,7 @@ export default function LandingSection() {
             <Image
               src="/assets/img/blog-author.jpg"
               alt="author"
-              className="h-48 rounded-full sm:h-56"
+              className="h-48 rounded-full sm:h-56 w-auto"
               width={224}
               height={224}
               priority

@@ -40,9 +40,8 @@ export default function WorkSection() {
                   </span>
                   <div className="pt-2">
                     <span className="block font-body text-black">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vestibulum mattis felis vitae risus pulvinar tincidunt.
-                      Nam ac venenatis enim.
+                      TypeScript + React. I became extremely good at them by the
+                      end and relished the opportunity to help others.
                     </span>
                   </div>
                 </div>
