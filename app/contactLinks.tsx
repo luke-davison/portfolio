@@ -1,6 +1,6 @@
 export const LINKEDIN_URL =
   "https://www.linkedin.com/in/luke-davison-170bb0145/";
-export const GITHUB_URL = "https://www.linkedin.com/in/luke-davison-170bb0145/";
+export const GITHUB_URL = "https://github.com/luke-davison";
 
 export default function ContactLinks() {
   return (
