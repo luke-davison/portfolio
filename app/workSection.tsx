@@ -33,15 +33,19 @@ export default function WorkSection() {
                 <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                 <div className="md:-mt-1 md:pl-8">
                   <span className="block font-body font-bold text-grey-40">
-                    Dec 2020 - Apr 2023
+                    Dec 2020 - present
                   </span>
                   <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
                     Front End Developer
                   </span>
                   <div className="pt-2">
                     <span className="block font-body text-black">
-                      TypeScript + React. I became extremely good at them by the
-                      end and relished the opportunity to help others.
+                      TypeScript + React, developing a web-based product for the
+                      healthcare industry. Role involves a lot of reviewing Pull
+                      Requests and assisting other developers. I did take seven
+                      months off during 2023 to travel and was very happy to be
+                      welcomed back to BP so I can see their project through to
+                      completion.
                     </span>
                   </div>
                 </div>

@@ -76,7 +76,8 @@ export const projects: Project[] = [
     url: "https://lettermonger.onrender.com",
     sourceUrl: "https://github.com/luke-davison/new-word-game",
     notes: [
-      "In 2019 I was inspired by the success of Wordle to create my own daily word game.  It is similar to a single turn in scrabble, except each tile scores differently based on factors such as where it is in the word, what other letters are nearby etc.  I was quite happy with how fun the game ended up being, but I was not able to find a way to make it look good enough on a phone in portrait orientation."
+      "In 2019 I was inspired by the success of Wordle to create my own daily word game.  It is similar to a single turn in scrabble, except each tile scores differently based on factors such as where it is in the word, what other letters are nearby etc.  I was quite happy with how fun the game ended up being, but I was not able to find a way to make it look good enough on a phone in portrait orientation.",
+      "Feel free to try it out, but note that it is not polished.  The goal is to build a word that scores the most points.  Note that the site will take a while to load as the Node server is spun down when not in use."
     ]
   },
   {
