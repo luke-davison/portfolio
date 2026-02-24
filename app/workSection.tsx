@@ -41,11 +41,9 @@ export default function WorkSection() {
                   <div className="pt-2">
                     <span className="block font-body text-black">
                       TypeScript + React, developing a web-based product for the
-                      healthcare industry. Role involves a lot of reviewing Pull
-                      Requests and assisting other developers. I did take seven
-                      months off during 2023 to travel and was very happy to be
-                      welcomed back to BP so I can see their project through to
-                      completion.
+                      healthcare industry. Since 2024 I was the most senior
+                      front end developer and responsible for all front end
+                      related matters.
                     </span>
                   </div>
                 </div>
