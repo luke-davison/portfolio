@@ -51,7 +51,7 @@ export const projects: Project[] = [
       "My family has a tradition of writing travel blogs so that everyone back home knows what they get up to.  I didn't plan to follow tradition, but I quickly realised that a blog was a perfect way to immortalise holiday memories.  It's like a photo album that also tells a story.  I don't care if no one else reads them - these blog entries are mostly for me.  For the sake of privacy I haven't included the link to the live site here, but I can be persuaded to provide it if you're interested.",
       "Originally I wrote them using free wordpress.com sites, but I decided that I wanted a solution where I could keep them all in one place (without having to pay wordpress) and also ensure they are backed up so they can't be lost.  Github probably isn't the best place to store images, but it works :).",
       "One problem I had with the blog is that it would sometimes have problems rendering the images.  I never did get to the bottom of it but it sounded like maybe I was pushing what Gatsby was intended for (there's now a lot of blog posts).  I found that reducing the size of the image (rather than relying on Gatsby to do this) seemed to solve the problem.  It wasn't ideal - but I was a week away from flying out at the time so it had to do.",
-      "I late adapted the site to a Next.js site.  While I liked many of the features of Next.js, Gatsby handled images much better.  Since this is site is little more than images and text I decided to keep using Gatsby."
+      "I later recreased the site using Next.js.  While I liked many of the features of Next.js, Gatsby handled images much better.  Since this is site is little more than images and text I decided to keep using Gatsby."
     ]
   },
   {
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     url: "https://lettermonger.onrender.com",
     sourceUrl: "https://github.com/luke-davison/new-word-game",
     notes: [
-      "In 2019 I was inspired by the success of Wordle to create my own daily word game.  It is similar to a single turn in scrabble, except each tile scores differently based on factors such as where it is in the word, what other letters are nearby etc.  I was quite happy with how fun the game ended up being, but I was not able to find a way to make it look good enough on a phone in portrait orientation.",
+      "In 2022 I was inspired by the success of Wordle to create my own daily word game.  It is similar to a single turn in scrabble, except each tile scores differently based on factors such as where it is in the word, what other letters are nearby etc.  I was quite happy with how fun the game ended up being, but I was not able to find a way to make it look good enough on a phone in portrait orientation.",
       "Feel free to try it out, but note that it is not polished.  The goal is to build a word that scores the most points.  Note that the site will take a while to load as the Node server is spun down when not in use."
     ]
   },
@@ -112,7 +112,7 @@ export const projects: Project[] = [
     url: "https://luke-davison.github.io/city-sim/",
     sourceUrl: "https://github.com/luke-davison/city-sim",
     notes: [
-      "Living temporarily in Auckland I was fascinated and infuriated with the traffic.  I decided to put my new learnings to use and make a simulation of traffic jams.  Ultimately that vision was warped once I found an isometric sprite set and decided to make a little city instead.",
+      "Living temporarily in Auckland for the bootcamp, I was fascinated and infuriated with the traffic.  I decided to put my new learnings to use and make a simulation of traffic jams.  Ultimately that vision changed once I found an isometric sprite set that I couldn't resist using, and this project ended up just being a little city.",
       "There's not much to this - just watch the cars drive round and round.  Also I wouldn't dare look at the code.  This was written before I kicked the self-taught-coder habits that made my code awful to read.  I know better now."
     ]
   },
