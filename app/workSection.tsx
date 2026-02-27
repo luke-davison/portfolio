@@ -40,10 +40,10 @@ export default function WorkSection() {
                   </span>
                   <div className="pt-2">
                     <span className="block font-body text-black">
-                      TypeScript + React, developing a web-based product for the
-                      healthcare industry. Since 2024 I was the most senior
-                      front end developer and responsible for all front end
-                      related matters.
+                      TypeScript + React, developing a large web-based product
+                      for the healthcare industry. Since 2024 I was the most
+                      senior front end developer on the project and responsible
+                      for all front end related matters.
                     </span>
                   </div>
                 </div>
